@@ -1,1 +1,6 @@
-export const DEPTH_FRAG = `void main(){ gl_FragColor=vec4(1.0); }`;\n
+export const DEPTH_FRAG = `#version 300 es
+precision highp float;
+
+void main() {
+}
+`;
