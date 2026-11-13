@@ -1,0 +1,1 @@
+export const MAIN_FRAG = `void main(){ gl_FragColor=vec4(0.2,0.2,0.25,1.0); }`;\n

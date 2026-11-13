@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"/><title>WebGL2 Shadow Map Lab</title><link rel="stylesheet" href="styles.css"/></head>
+<body>
+<main>
+  <section class="panel">
+    <h1>Shadow Map</h1>
+    <div id="status">boot</div>
+    <canvas id="glcanvas" width="800" height="480"></canvas>
+    <pre id="stats"></pre>
+  </section>
+  <section class="panel">
+    <h2>参数</h2>
+    <label>bias <input id="bias" type="range" min="0" max="50" value="10"/></label>
+    <label>lightY <input id="lightY" type="range" min="2" max="20" value="8"/></label>
+    <button id="btn-capture">Capture PNG</button>
+  </section>
+</main>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
